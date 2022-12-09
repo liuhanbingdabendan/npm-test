@@ -1,0 +1,25 @@
+{
+  "name": "npm-test",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liuhanbingdabendan/npm-test.git"
+  },
+  "author": "liuhanbing",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liuhanbingdabendan/npm-test/issues"
+  },
+  "homepage": "https://github.com/liuhanbingdabendan/npm-test#readme",
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "typescript": "^4.9.4"
+  }
+}
